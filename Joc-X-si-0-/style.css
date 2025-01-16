@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray; /* Gri deschis */
+}
+
+#scoreboard {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Optional: Adds space between items */
+}
